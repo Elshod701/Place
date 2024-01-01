@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "price": "1 999 ₽",
+      "strike": "2 499 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=10ffc3315e4a6b2c629fce53bd73f7ba8cb98f41-9847129-images-thumbs&ref=rim&n=33&w=190&h=250",
+      "desc": "Футболка с дизайнерским принтом Super Shape 02 фиолетовая"
+    },
+    {
+      "id": 2,
+      "price": "3 179 ₽",
+      "strike": "5 999 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=10ffc3315e4a6b2c629fce53bd73f7ba8cb98f41-9847129-images-thumbs&ref=rim&n=33&w=190&h=250",
+      "desc": "Футболка с дизайнерским принтом Super Shape 01 градиент"
+    },
+    {
+      "id": 3,
+      "price": "1 375 ₽",
+      "strike": "2 999 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=ef3875e97367874844efd2c01b8c3d67635ec270-7551636-images-thumbs&ref=rim&n=33&w=250&h=250",
+      "desc": "Бейсболка с дизайнерским принтом Super Shape 01 bелая"
+    },
+    {
+      "id": 4,
+      "price": "599 ₽",
+      "strike": "990 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=ef3875e97367874844efd2c01b8c3d67635ec270-7551636-images-thumbs&ref=rim&n=33&w=250&h=250",
+      "desc": "Чехол для iphone 12 с дизайнерским принтом Super Shape 03"
+    },
+    {
+      "id": 5,
+      "price": "1 999 ₽",
+      "strike": "3 999 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=10ffc3315e4a6b2c629fce53bd73f7ba8cb98f41-9847129-images-thumbs&ref=rim&n=33&w=190&h=250",
+      "desc": "Футболка с дизайнерским принтом Super Shape 05"
+    },
+    {
+      "id": 6,
+      "price": "1 129 ₽",
+      "strike": "5 000 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=10ffc3315e4a6b2c629fce53bd73f7ba8cb98f41-9847129-images-thumbs&ref=rim&n=33&w=190&h=250",
+      "desc": "Футболка с дизайнерским принтом Super Shape 06"
+    },
+    {
+      "id": 7,
+      "price": "599 ₽",
+      "strike": "1 199 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=ef3875e97367874844efd2c01b8c3d67635ec270-7551636-images-thumbs&ref=rim&n=33&w=250&h=250",
+      "desc": "Чехол для iphone 12 с дизайнерским принтом Super Shape 06"
+    },
+    {
+      "id": 8,
+      "price": "1 599 ₽",
+      "strike": "2 990 ₽",
+      "img": "https://avatars.mds.yandex.net/i?id=ef3875e97367874844efd2c01b8c3d67635ec270-7551636-images-thumbs&ref=rim&n=33&w=250&h=250",
+      "desc": "Чехол для iphone 12 с дизайнерским принтом Super Shape 03"
+    }
+  ],
+  "new_products": [
+    {
+      "id": 1,
+      "price": "6 940 000 сум",
+      "strike": "7 940 000 сум",
+      "img": "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-12-23/x8rc3ypNf2RXJeKM2NZsN46xdrDs5ODs0JOYwceRykjhrro2EceWiYPLY6KT.jpg",
+      "desc": "Honor X6a 4/128 GB Cyan Lake"
+    },
+    {
+      "id": 2,
+      "price": "1 640 000 сум",
+      "strike": "2 440 000 сум",
+      "img": "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-12-08/nwAV4GvVBg3lc0WzYYl7xn8F1gJhpivWdh8GmjlMwRhZdMbRRvAlutaudKoE.jpg",
+      "desc": "Infinix Zero 30 4G 8/256 GB Sunset gold"
+    },
+    {
+      "id": 3,
+      "price": "4 230 000 сум",
+      "strike": "4 940 000 сум",
+      "img": "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-23/hIqZcUObrub3wYypcWjtOSL8eS8PZpZbCRAngxqwbRkFWoGhRw1tixvn57h1.jpg",
+      "desc": "Redmi Note 12 Pro 4G (Global) Графитово-серый 8/256 GB"
+    },
+    {
+      "id": 4,
+      "price": "11 940 000 сум",
+      "strike": "14 940 000 сум",
+      "img": "https://olcha.uz/image/original/products/supplier/stores/1/2023-09-13/EHb7QGeQvaRB4R4HwI1BJFF14LXoFRBAPfBD6Zjl0HeJnbTRxmcupZOPNF22.jpg",
+      "desc": "Apple iPhone 15 Pro"
+    },
+    {
+      "id": 5,
+      "price": "4 230 000 сум",
+      "strike": "4 940 000 сум",
+      "img": "https://olcha.uz/image/original/products/supplier/stores/1/2023-05-23/7wO5zgmOAqP8P6mhcAI5Pwl4DPmZNrciCFUtitqULXadj4KRRuvB2baBxg8z.jpg",
+      "desc": "Redmi Note 12 Pro 4G (Global) Ледниковый синий 8/256 GB"
+    },
+    {
+      "id": 6,
+      "price": "11 940 000 сум",
+      "strike": "14 940 000 сум",
+      "img": "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-09-13/OAbsbpymCDAtPPeJRhlDBTbOc80WiqcCN7acRK4x46ub4pVplcL6FjGOo0x1.jpg",
+      "desc": "Apple iPhone 15 Pro 256GB Blue titanium"
+    },
+    {
+      "id": 7,
+      "price": "5 721 000 сум",
+      "strike": "7 221 000 сум",
+      "img": "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-05-24/IzaEDEs6c5ntLaFcGySHw5qs0jmcXtULNnqlCSWoUeT0XtcPzl5Nr2GAcvER.jpg",
+      "desc": "Xiaomi Poco F5 12/256 ГБ Global Black"
+    },
+    {
+      "id": 8,
+      "price": "5 140 000 сум",
+      "strike": "6 500 000 сум",
+      "img": "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-07-05/JhGP9AqRk8615A96OyYYJ0nUlK7qBp4CoEvEMkNFnKsxAvcxq7zO7BZPeDeW.jpg",
+      "desc": "Смартфон Samsung Galaxy S21 FE 5G 256GB 8 GB Черный"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "img": "https://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_hnck0391.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://previews.123rf.com/images/klyaksun/klyaksun2306/klyaksun230600827/207741229-night-toy-store-interior-with-spotlight-cartoon-background-magic-vector-carousel-shelf-showcase-with.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://wowslider.com/sliders/demo-77/data1/images/field175959_1920.jpg"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- input css -->
+    <link rel="stylesheet" href="../src/input.css" />
+    <!-- dist/ output css -->
+    <link rel="stylesheet" href="../dist/output.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- boxicon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <div
+            class="wrapper flex items-center justify-between py-2 ml-[324px]"
+          >
+            <div class="flex items-center gap-5">
+              <select class="border-none outline-none">
+                <option disabled>Покупателям</option>
+                <option>Поставщикам</option>
+                <option>Покупателям</option>
+                <option>Поставщикам</option>
+              </select>
+              <select class="border-none outline-none">
+                <option disabled>Поставщикам</option>
+                <option>Покупателям</option>
+                <option>Поставщикам</option>
+              </select>
+              <p>Частые вопросы</p>
+            </div>
+            <div class="flex items-center gap-1">
+              <img src="../src/assets/images/rus.svg" alt="" /> |
+              <p>Русский</p>
+              |
+              <select class="border-none outline-none">
+                <option>₽</option>
+                <option>$</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header-bottom flex items-center py-2 justify-between">
+          <div
+            id="burger"
+            class="p-3 bg-slate-800 text-white rounded-sm flex items-center justify-center"
+          >
+            <i class="bx bx-menu text-6xl"></i>
+          </div>
+          <div class="logo">
+            <img src="./assets/images/logo.svg" alt="" />
+          </div>
+          <div id="input-div" class="h-[46px] flex items-center p-1">
+            <select class="outline-none py-2 px-3 bg-pink-100">
+              <option value="Везде">Везде</option>
+              <option value="Везде">Везде 1</option>
+              <option value="Везде">Везде 2</option>
+              <option value="Везде">Везде 3</option>
+            </select>
+            <form class="flex items-center justify-between pr-4">
+              <input
+                type="text"
+                placeholder="Search..."
+                class="w-[500px] outline-none py-[7.5px] p-2 bg-transparent"
+              />
+              <button type="submit">
+                <img src="./assets/images/search.svg" alt="" />
+              </button>
+            </form>
+          </div>
+          <div class="flex items-center gap-[50px]">
+            <div class="flex flex-col items-center justify-center">
+              <img src="./assets/images/user-icon.svg" alt="" />
+              <p>Войти</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <img src="./assets/images/like-icon.svg" alt="" />
+              <p>Избранное</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <img src="./assets/images/shop-cart.svg" alt="" />
+              <p>Корзина</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="first-section">
+        <div class="container">
+          <div class="wrapper py-4 flex items-center justify-between">
+            <aside class="sidebar w-[296px]">
+              <h1
+                id="selected-catalog-title"
+                class="flex items-center text-white font-roboto-medium gap-2 mx-auto bg-red-200 pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/nuqtacha.svg" alt="" />
+                <p>Популярные категории</p>
+              </h1>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Компьютеры и оргтехника</p>
+              </li>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Бытовая техника</p>
+              </li>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Электроника</p>
+              </li>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Одежда для женщин</p>
+              </li>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Одежда для мужчин</p>
+              </li>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Все для детей</p>
+              </li>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Автотовары</p>
+              </li>
+              <li
+                class="flex items-center bg-white font-roboto-regular gap-2 mx-auto pl-[40px] list-none w-[296px] h-[36px]"
+              >
+                <img src="./assets/images/computer.svg" alt="" />
+                <p>Красота и здоровье</p>
+              </li>
+            </aside>
+            <div id="carousel-container">
+              <img src="./assets/images/baner1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="second-section">
+        <div class="container">
+          <h1 class="text-[28px] py-7">Успей купить</h1>
+          <div
+            id="producstWrapper"
+            class="flex justify-between items-center flex-wrap gap-6 mb-10"
+          >
+            <div id="card" class="card w-[250px] h-[400px] p-[20px] shadow-xl">
+              <img src="${e.img}" class="w-[230px] mx-auto mb-[20px]" alt="" />
+              <div class="flex items-end gap-5 mb-5">
+                <h1 class="text-2xl">${e.price}</h1>
+                <strike class="text-base">${e.strike}</strike>
+              </div>
+            </div>
+          </div>
+          <h1 class="text-[28px] py-7">Новинки</h1>
+          <div id="newProductWrapper">
+            <div
+              id="newProducstWrapper"
+              class="flex justify-between items-center flex-wrap gap-6 mb-10"
+            >
+              <div
+                id="card"
+                class="card w-[250px] h-[400px] p-[20px] shadow-xl"
+              >
+                <img
+                  src="${e.img}"
+                  class="w-[230px] mx-auto mb-[20px]"
+                  alt=""
+                />
+                <div class="flex items-end gap-5 mb-5">
+                  <h1 class="text-2xl">${e.price}</h1>
+                  <strike class="text-base">${e.strike}</strike>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="third-section">
+        <div class="container">
+          <h1 class="mb-4 text-2xl">Магазины для вас</h1>
+          <div
+            class="AddWrapper flex items-center justify-between gap-5 flex-wrap mb-10"
+          >
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="addWrapper-card flex flex-col w-[300px] h-[220px] shadow-2xl px-5 py-7"
+            >
+              <div class="flex items-center justify-center gap-10 mb-8">
+                <img src="./assets/images/addLogo.svg" alt="" />
+                <p class="text-2xl">Marple</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+                <img class="w-[78px]" src="./assets/images/blue.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="fourth-section">
+        <div class="container">
+          <h1 class="text-2xl mb-4">Широкий ассортимент и высокое качество</h1>
+          <div class="accordion overflow-y-hidden">
+            Интернет-магазин PlaceMik – это доступные цены, широкий, регулярно
+            обновляемый ассортимент. В онлайн-каталоге PlaceMik представлено
+            около 35 000 ведущих брендов женской, мужской и детской одежды и
+            обуви. Покупателям предлагается электроника, книжная продукция,
+            детские товары.
+            <div class="forOpacity opacity-50">
+              В интернет-магазине можно приобрести все товары можно сортировать
+              по ряду критериев: цена, материал изготовления, Интернет-магазин
+              PlaceMik – это доступные цены, широкий, регулярно обновляемый
+              ассортимент.
+            </div>
+            онлайн-каталоге PlaceMik представлено около 35 000 ведущих брендов
+            женской, мужской и детской одежды и обуви. Покупателям предлагается
+            электроника, книжная продукция, детские товары. В интернет-магазине
+            можно приобрести продукцию для дома, продукты питания, товары для
+            красоты, ювелирные изделия, игрушки. Для удобства пользования
+            онлайн-каталог поделен на разделы, все товары можно сортировать по
+            ряду критериев: цена, материал изготовления, Интернет-магазин
+            PlaceMik – это доступные цены, широкий, регулярно обновляемый
+            ассортимент. В онлайн-каталоге PlaceMik представлено около 35 000
+            ведущих брендов женской, мужской и детской одежды и обуви.
+            Покупателям предлагается электроника, книжная продукция, детские
+            товары. В интернет-магазине можно приобрести продукцию для дома,
+            продукты питания, товары для красоты, ювелирные изделия, игрушки.
+            Для удобства пользования онлайн-каталог поделен на разделы, все
+            товары можно сортировать по ряду критериев: цена, материал
+            изготовления,
+          </div>
+          <button id="acc-btn">Читать полностью</button>
+        </div>
+      </section>
+      <section class="h-auto py-6" id="fifth-section">
+        <div class="container">
+          <h1 class="text-4xl mt-10 mb-4">Ранее вы смотрели</h1>
+          <div
+            class="watchedWrapper flex items-center justify-between mb-[100px]"
+          >
+            <div
+              class="card w-[270px] bg-white h-[200px] px-[12px] py-[33px] shadow-lg flex items-start"
+            >
+              <img class="w-[108px] h-[108px]" src="${e.img}" />
+              <div class="flex flex-col gap-5">
+                <p class="text-xl font-roboto-medium">${e.desc}</p>
+                <p>${e.price}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="wrapper py-[35px] text-white flex items-start">
+          <ul class="text-white flex flex-col mr-[160px]">
+            <h1 class="text-base mb-2">Покупателям</h1>
+            <li class="text-sm mb-2">Как это работает</li>
+            <li class="text-sm mb-2">Защита покупателя</li>
+            <li class="text-sm mb-2">Условия оплаты</li>
+            <li class="text-sm mb-2">Условия использования</li>
+            <li class="text-sm mb-2">Регистрация аккаунта</li>
+          </ul>
+          <ul class="text-white flex flex-col mr-[160px]">
+            <h1 class="text-base mb-2">Покупателям</h1>
+            <li class="text-sm mb-2">Как это работает</li>
+            <li class="text-sm mb-2">Защита покупателя</li>
+            <li class="text-sm mb-2">Новости</li>
+          </ul>
+          <ul class="text-white flex flex-col">
+            <h1 class="text-base mb-2">О PlaceMik</h1>
+            <li class="text-sm mb-2">Новости</li>
+            <li class="text-sm mb-2">Часто задаваемые вопросы</li>
+            <li class="text-sm mb-2">Служба поддержки</li>
+            <li class="text-sm mb-2">Сообщить о нарушении авторских прав</li>
+          </ul>
+
+          <form class="ml-[40px]">
+            <h1>Хотите быть в курсе последних новостей и акций?</h1>
+            <div class="mt-[30px] flex items-center gap-8">
+              <input
+                id="input"
+                class="bg-transparent outline-none"
+                type="text"
+                placeholder="konstantinkonstantinov@yandex.ru"
+              />
+              <button id="form-btn" type="submit">Подписаться</button>
+            </div>
+            <h1 class="mt-[21px]">Мы в соцсетях</h1>
+            <div class="flex items-center gap-6 mt-5">
+              <img src="./assets/images/vk.svg" alt="" />
+              <img src="./assets/images/insta.svg" alt="" />
+              <img src="./assets/images/linkedin.svg" alt="" />
+            </div>
+          </form>
+        </div>
+        <div class="footerWithLogo flex items-center justify-between">
+          <img class="ml-[-40px]" src="./assets/images/white-logo.svg" alt="" />
+          <p class="text-white">© PlaceMik.ru, 2021</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/index.js"></script>
+</html>
